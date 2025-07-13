@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, focado em criar uma aplicação web moderna com React e TypeScript.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 ### Frontend
 - **React 19** - Biblioteca para construção de interfaces
@@ -17,31 +17,23 @@ Projeto desenvolvido durante o evento **NLW (Next Level Week)** da Rocketseat, f
 - **Lucide React** - Ícones
 - **Class Variance Authority** - Utilitário para variantes de componentes
 
-### Ferramentas de Desenvolvimento
+### Ferramentas
 - **Biome** - Linter e formatter (substituindo ESLint + Prettier)
 - **Ultracite** - Configuração de linting otimizada
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura
 
 ```
 src/
 ├── components/     # Componentes reutilizáveis
 ├── pages/         # Páginas da aplicação
+├── http/          # Hooks e tipos para API
 ├── lib/           # Utilitários e configurações
 ├── app.tsx        # Componente principal
 └── main.tsx       # Ponto de entrada
 ```
 
-## 🛠️ Padrões de Projeto
-
-- **Componentes Funcionais** com hooks do React
-- **TypeScript** para tipagem estática
-- **React Query** para gerenciamento de estado e cache
-- **React Router** para navegação
-- **Tailwind CSS** para estilização utilitária
-- **Biome** para linting e formatação de código
-
-## ⚡ Setup e Configuração
+## ⚡ Setup
 
 ### Pré-requisitos
 - Node.js (versão 18 ou superior)
@@ -60,24 +52,24 @@ cd web
 npm install
 ```
 
-3. Execute o projeto em modo de desenvolvimento:
+3. Execute o projeto:
 ```bash
 npm run dev
 ```
 
-4. Acesse a aplicação em `http://localhost:5173`
+4. Acesse: `http://localhost:5173`
 
-### Scripts Disponíveis
+### Scripts
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Visualiza o build de produção
+- `npm run dev` - Servidor de desenvolvimento
+- `npm run build` - Build de produção
+- `npm run preview` - Visualizar build
 
 ## 🔧 Configurações
 
-- **Vite** configurado com alias `@` para `./src`
-- **Tailwind CSS** integrado via plugin do Vite
-- **Biome** configurado com preset Ultracite
+- **Vite** com alias `@` para `./src`
+- **Tailwind CSS** integrado via plugin
+- **Biome** com preset Ultracite
 - **TypeScript** configurado para React
 
 ## 📝 Licença
